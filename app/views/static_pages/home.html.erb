@@ -1,0 +1,15 @@
+<div class="center jumbotron">
+  <h1>Welcome to the pizza delivery website</h1>
+
+  <h2>
+    here (in the future) you can order pizza just by click on the below
+    botton for example you can see this web site
+    <a href="http://www.daliya.ir/">daliya restaurant</a>
+    you can still click on pizza image to see some usefull information about pizza
+  </h2>
+
+  <%= link_to "Order now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("pizza.png", alt: "Pizza"),
+            'http://fa.wikipedia.org/wiki/%D9%BE%DB%8C%D8%AA%D8%B2%D8%A7' %>
